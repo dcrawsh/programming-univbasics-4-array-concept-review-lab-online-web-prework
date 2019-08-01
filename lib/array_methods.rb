@@ -1,5 +1,11 @@
 def find_element_index(array, value_to_find)
-  # Add your solution here
+ array = [1,2,3,4,5]
+length = array.length
+ 
+length.times do |index|
+  puts array[index]
+end
+
 end
 
 def find_max_value(array)
